@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.navbar {
+display: flex;
+margin-right: 10px;
+}
+
+.logo img {
+   width: 75px;
+   margin-right: 20px;
+}
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    height: 30px; /* Altura más pequeña */
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    height: 60vh !important;
+    background: url(Presentacion.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+   
+
+.title {
+    margin-bottom: 40px;
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p {
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.content a {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+ }
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5) ;
+    margin: 2rem;
+    background-image: url('Foto\ remolque.png'); 
+    background-size: cover; 
+    background-position: center; 
+    
+}
+.box-container .bex {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5) ;
+    margin: 2rem;
+    background-image: url('Asistencia\ en\ carretera.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+.box-container .bix {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5) ;
+    margin: 2rem;
+    background-image: url('Transporte\ de\ vehiculo.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+.box-container .bux {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5) ;
+    margin: 2rem;
+    background-image: url('Asistencia\ en\ accidente.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+ 
+
+.about {
+    padding: 30px;
+    background: #171717;
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+.logo img {
+    width: 75px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.logo h1 {
+    margin: 0; 
+    color: #fff;
+    font-size: 15px;
+}
+
